@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Paytone+One&display=swap");
+.home-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.294);
+
+  app-slider {
+    z-index: 0;
+  }
+
+  .text-div {
+    position: absolute;
+    z-index: 100;
+    font-family: "Paytone One", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20rem;
+
+    &__big-deal {
+      background-image: url(https://preview.colorlib.com/theme/burger/img/shape/x1.png.pagespeed.ic.Jbw1Pqihsx.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      display: inline-block;
+      padding: 18px 2rem;
+      span {
+        font-size: 1.5rem;
+        padding: 1rem;
+      }
+    }
+
+    h3 {
+      font-size: 5rem;
+      font-family: "Paytone One", sans-serif;
+      text-transform: uppercase;
+      padding: 1rem;
+    }
+    h4 {
+      font-size: 9rem;
+      font-family: "Pacifico", cursive;
+      color: #ffd35a;
+      padding: 1rem;
+    }
+  }
+}
