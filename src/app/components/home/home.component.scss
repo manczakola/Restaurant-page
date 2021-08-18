@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Paytone+One&display=swap");
-.home-container {
+.slider-container {
   display: flex;
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.294);
 
   app-slider {
     z-index: 0;

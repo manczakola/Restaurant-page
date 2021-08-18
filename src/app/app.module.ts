@@ -15,6 +15,7 @@ import { LogoComponent } from './navbar/logo/logo.component';
 import { SliderComponent } from './slider/slider.component';
 import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { MenuInHomePageComponent } from './components/menu-in-home-page/menu-in-home-page.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     LogoComponent,
     SliderComponent,
+    MenuInHomePageComponent,
   ],
   imports: [
     BrowserModule,
