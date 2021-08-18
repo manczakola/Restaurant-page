@@ -1,5 +1,11 @@
 .picsum-img-wrapper {
+  width: 100vw;
+  height: 100%;
+  background-color: black;
+  z-index: 100;
+
   img {
+    z-index: -100;
     width: 100vw;
   }
 }
